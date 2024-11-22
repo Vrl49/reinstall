@@ -65,13 +65,7 @@ The system requirements for the target system are as follows:
 For server outside China:
 
 ```bash
-curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh || wget -O reinstall.sh $_
-```
-
-For server inside China:
-
-```bash
-curl -O https://www.ghproxy.cc/https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh || wget -O reinstall.sh $_
+curl -O https://raw.githubusercontent.com/vrl49/reinstall/main/reinstall.sh || wget -O reinstall.sh $_
 ```
 
 ## Download (Current system is <img width="20" height="20" src="https://blogs.windows.com/wp-content/uploads/prod/2022/09/cropped-Windows11IconTransparent512-32x32.png" /> Windows)
@@ -107,13 +101,7 @@ curl -O https://www.ghproxy.cc/https://raw.githubusercontent.com/bin456789/reins
 For server outside China:
 
 ```batch
-certutil -urlcache -f -split https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.bat
-```
-
-For server inside China:
-
-```batch
-certutil -urlcache -f -split https://www.ghproxy.cc/https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.bat
+certutil -urlcache -f -split https://raw.githubusercontent.com/vrl49/reinstall/main/reinstall.bat
 ```
 
 ## Usage
